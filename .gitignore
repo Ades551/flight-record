@@ -1,0 +1,8 @@
+venv/
+python/
+__pycache__/
+node_modules/
+mp3/
+transcript/
+react/
+*.so

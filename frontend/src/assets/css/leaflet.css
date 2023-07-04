@@ -1,0 +1,8 @@
+.leaflet-popup-content {
+    width: auto !important;
+}
+
+.leaflet-div-icon {
+    background: none;
+    border: none;
+}

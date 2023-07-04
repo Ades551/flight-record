@@ -1,0 +1,22 @@
+.selected-region {
+    border-radius: 3%;
+    border-left: 3px solid var(--blue);
+}
+
+.transcript {
+    padding: 1px 0 1px 0;
+}
+
+.transcript p {
+    margin: 0 6px 0 6px;
+    font-size: .95rem;
+    white-space: nowrap;
+}
+
+.non-selected-word {
+    color: black;
+}
+
+.selected-word {
+    color: #198754;
+}

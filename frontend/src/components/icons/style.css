@@ -1,0 +1,46 @@
+.custom-flight-icon:hover {
+    color: azure !important;
+}
+
+.flag-icon {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+.flag-icon:hover {
+    background-color: var(--yellow);
+}
+
+.flag-clicked {
+    background-color: var(--yellow);
+}
+
+.loading {
+    position: absolute;
+    top: -10px;
+}
+
+.sound-icon-background {
+    background-color: var(--light);
+}
+
+.sound-icon:hover {
+    color: #0d6efd;
+}
+
+.custom-arrow {
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.custom-arrow:hover {
+    background-color: var(--yellow);
+}
+
+
+.custom-arrow svg {
+    margin: 4px;
+}

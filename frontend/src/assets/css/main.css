@@ -1,0 +1,18 @@
+:root {
+    --yellow: #FFC107;
+    --light: #f8f9fa;
+    --dark: #212529;
+    --gray-500: #adb5bd;
+    --blue: #0d6efd;
+}
+
+
+.clickable {
+    cursor: pointer;
+}
+
+@media (hover: hover) {
+    .clickable:hover {
+        color: var(--yellow);
+    }
+}

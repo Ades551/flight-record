@@ -1,0 +1,13 @@
+.popup-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.popup-div-children {
+    width: 30%;
+    flex-grow: 1 0;
+    margin: 2px;
+}

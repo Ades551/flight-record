@@ -1,0 +1,29 @@
+.box {
+    max-height: 350px;
+    max-width: 500px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out 0.5s, max-width 0.5s ease-out;
+}
+
+.box.collapsed {
+    transition: max-height 0.5s ease-out, 0.5s max-width 0.5s ease-out;
+    max-height: 0;
+    max-width: 0;
+    visibility: hidden;
+}
+
+.info-content {
+    height: 200px;
+    overflow: auto;
+}
+
+.info-content p {
+    padding: 3% 0 3% 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .box {
+        width: 100%;
+    }
+}

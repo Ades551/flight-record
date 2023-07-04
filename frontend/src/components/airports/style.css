@@ -1,0 +1,37 @@
+@keyframes pulse {
+    0%,
+    100% {
+      animation-timing-function: ease-in-out;
+    }
+    50% {
+      transform: scale(1.15);
+    }
+}
+
+.search-icon {
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    animation: pulse 3s infinite;
+}
+
+@media (hover: hover) {
+    .search-icon:hover {
+        transform: scale(1.15);
+        border-color: var(--yellow);
+        color: var(--yellow);
+    }
+
+    .clicked:hover {
+        transform: scale(1.15);
+        border-color: var(--yellow);
+        color: var(--dark);
+    }
+}
+
+.clicked {
+    background-color: var(--yellow);
+    border-color: var(--dark);
+    color: var(--dark);
+}

@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flight-record"
+version = "0.1.0"
+description = "Bachealors project"
+readme = "README.md"
+requires-python = ">=3.11"
+
+authors = [
+    {name = "Adam Rajko", email = "adam.rajko123@gmail.com" }
+]
+maintainers = [
+    {name = "Adam Rajko", email = "adam.rajko123@gmail.com" }
+]
+
+dependencies = [
+    "flask",
+    "requests",
+    "numpy",
+    "Flask-WTF",
+    "Flask-SQLAlchemy",
+    "jmespath",
+    "mysqlclient",
+    "scikit-learn",
+    "pytz",
+]
+
+[project.optional-dependencies]
+dev = ["autopep8"]
+
+[project.urls]
+"repository" = "https://github.com/Ades551/vhf-opensky-demo"
+
+[tool.setuptools]
+py-modules = [
+    'api',
+    'threads',
+    'airports',
+    'database',
+    'haversine',
+    'flask_app',
+    'clustering'
+]
+
